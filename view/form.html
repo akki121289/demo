@@ -6,26 +6,27 @@
 	</head>
 	<body class="container">
 
-		<form class="form-inline" method="post">
+		<form class="form-inline" method="post" id="formSearch">
 			<div class="form-group">
 				<label for="exampleInputName2">[  </label>
-				<input type="number" class="form-control" name="exampleInputName1" placeholder="1111111" maxlenght="7">
+				<input type="number" class="form-control" id="exampleInputName1" name="exampleInputName1" placeholder="1111111" maxlenght="7">
 				<label for="exampleInputName2">  ]</label>
 			</div>
 			<div class="form-group">
-				<input type="number" class="form-control" name="exampleInputName2" placeholder="YYMMDD" maxlenght="6">
+				<input type="number" class="form-control" id="exampleInputName2" name="exampleInputName2" placeholder="YYMMDD" maxlenght="6">
 			</div>
 			<div class="form-group">
-				<input type="text" class="form-control" name="exampleInputName3" placeholder="g3g3" maxlenght="4">
+				<input type="text" class="form-control" id="exampleInputName3" name="exampleInputName3" placeholder="g3g3" maxlenght="4">
 				<label for="exampleInputName2">  --  </label>
 			</div>
 			<div class="form-group">
-				<input type="number" class="form-control" name="exampleInputName4" placeholder="2222"  maxlenght="4">
+				<input type="number" class="form-control" id="exampleInputName4" name="exampleInputName4" placeholder="2222"  maxlenght="4">
 			</div>
 			<button type="submit" class="btn btn-default">Search</button>
 		</form>
 		<!--scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src='/js/bootstrap.js'></script> 
+		<script src='/js/validate.js'></script> 
 	<body>
 </html>
